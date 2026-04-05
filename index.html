@@ -14,74 +14,152 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <label for="search">
-          <input
-            class="search-input"
-            type="search"
-            id="search"
-            placeholder="Search desserts..."
-          />
-        </label>
-
-        <div class="header-right">
-          <img
-            class="Notification-img"
-            src="./icons/header button.png"
-            alt="Notification button"
-          />
-          <p>
-            Chef de Cuisine<br />
-            <span>Executive Pastry Chef</span>
-          </p>
-          <img
-            class="Chef-image"
-            src="./images/header image.png"
-            alt="Chef image"
-          />
+    <div class="container">
+      <aside class="sidebar">
+        <div class="aside-box">
+          <h2>The Gallery</h2>
+          <span>EDITORIAL DASHBOARD</span>
+          <nav class="category">
+            <ul>
+              <li class="dashboard">
+                <a href="#">
+                  <img src="./icons/./firsticon.svg" alt="Dashboard icon" />
+                  Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/./secicon.svg" alt="Order icon" />
+                  Orders
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/./thirdicon.svg" alt="Menu icon" />
+                  Menu
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/./fourthicon.svg" alt="Customers icon" />
+                  Customers
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/./fifthicon.svg" alt="Analytics icon" />
+                  Analytics
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/./sixthicon.svg" alt="Settings icon" />
+                  Settings
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </aside>
+
+      <div>
+        <header>
+          <div class="header-container">
+            <label for="search">
+              <input
+                class="search-input"
+                type="search"
+                id="search"
+                placeholder="Search desserts..."
+              />
+            </label>
+
+            <div class="header-right">
+              <img
+                class="Notification-img"
+                src="./icons/header button.png"
+                alt="Notification button"
+              />
+              <p>
+                Chef de Cuisine<br />
+                <span>Executive Pastry Chef</span>
+              </p>
+              <img
+                class="Chef-image"
+                src="./images/header image.png"
+                alt="Chef image"
+              />
+            </div>
+          </div>
+        </header>
+        <main>
+          <div class="cake-div">
+            <img
+              class="cake"
+              src="./images/mainfirst image.png"
+              alt="Cake image"
+            />
+            <div class="cake-text">
+              <span class="dessert">Dessert</span>
+              <h1>
+                Chocolate Lava <br />
+                Cake
+              </h1>
+              <img src="./icons/min icon.png" alt="Minute" />
+              <img src="./icons/easy icon.png" alt="easy icon" />
+              <img src="./icons/kcal icon.png" alt="kcal icon" />
+              <br />
+
+              <button class="cake-btn">Add to Order</button>
+            </div>
+          </div>
+
+          <div class="items-wrapper">
+            <div class="items">
+              <span>Calories</span>
+              <p>450 kcal</p>
+            </div>
+
+            <div class="items sugar">
+              <span>Sugar</span>
+              <p>28gr</p>
+            </div>
+
+            <div class="items fat">
+              <span>FAT</span>
+              <p>18 gr</p>
+            </div>
+
+            <div class="items carbs">
+              <span>Carbs</span>
+              <p>52g</p>
+            </div>
+          </div>
+
+          <section class="menu">
+            <div class="menu-div">
+              <h2>Menu Selections</h2>
+              <div class="menu-category">
+                <div class="menu-items">
+                  <p>All</p>
+                </div>
+
+                <div class="menu-items">
+                  <p>Cake</p>
+                </div>
+
+                <div class="menu-items">
+                  <p>Ice cream</p>
+                </div>
+
+                <div class="menu-items">
+                  <p>Drinks</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
       </div>
-    </header>
-    <main>
-      <div class="cake-div">
-        <img class="cake" src="./images/mainfirst image.png" alt="Cake image" />
-        <div class="cake-text">
-          <span class="dessert">Dessert</span>
-          <h1>
-            Chocolate Lava <br />
-            Cake
-          </h1>
-          <img src="./icons/min icon.png" alt="Minute" />
-          <img src="./icons/easy icon.png" alt="easy icon" />
-          <img src="./icons/kcal icon.png" alt="kcal icon" />
-          <br />
-
-          <button class="cake-btn">Add to Order</button>
-        </div>
-      </div>
-
-      <div class="items-wrapper">
-        <div class="items">
-          <span>Calories</span>
-          <p>450 kcal</p>
-        </div>
-
-        <div class="items sugar">
-          <span>Sugar</span>
-          <p>28gr</p>
-        </div>
-
-        <div class="items fat">
-          <span>FAT</span>
-          <p>18 gr</p>
-        </div>
-
-        <div class="items carbs">
-          <span>Carbs</span>
-          <p>52g</p>
-        </div>
-      </div>
-    </main>
+    </div>
   </body>
 </html>

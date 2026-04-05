@@ -7,12 +7,63 @@ body {
     font-family: "Plus Jakarta Sans",
         sans-serif;
 }
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar {
+    width: 256px;
+    background-color: #FDF9ED;
+}
+.sidebar h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #935253;
+}
+.sidebar span{
+    font-size: 10px;
+    color: #766057;
+}
+.aside-box{
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.category{
+    margin-top: 40px;
+ 
+}
+.category ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.category li a{
+    font-size: 14px;
+    display: flex;
+    gap: 12px;
+    padding: 8px 8px;
+    color: #766057;
+}
+.dashboard{
+    background-color: white;
+    padding: 10px 8px;
+    border-radius: 0 9999px 9999px 0;
+}
+/* HEADER SECTION */
 header{
     padding: 48px;
 }
 .header-container {
     display:flex ;
-    justify-content: space-between;
+    gap: 520px;
 }
 .search-input{
     background-color: #FDF9ED;
@@ -98,7 +149,7 @@ header{
 }
 .items-wrapper {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     margin-left: 48px;
 }
 .sugar {
@@ -109,4 +160,30 @@ header{
 }
 .carbs {
     background-color: #F2EEDD;
+}
+
+/* Menu */
+.menu-div{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.menu-items{
+    width: 90px;
+    height: 24px;
+    border-radius: 9999px;
+    padding: 4px 16px;
+    background-color: #F7F4E5;
+}
+.menu-items p {
+    font-size: 12px;
+    text-align: center;
+    color: #766057;
+    font-weight: 700;
+}
+.menu-category {
+    display: flex;
+    gap: 10px;
 }
