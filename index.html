@@ -15,6 +15,7 @@
   </head>
   <body>
     <div class="container">
+      <!-- Sidebar section -->
       <aside class="sidebar">
         <div class="aside-box">
           <h2>The Gallery</h2>
@@ -60,9 +61,20 @@
             </ul>
           </nav>
         </div>
+
+        <div class="aside-below">
+          <button>New order</button>
+          <li>
+            <a href="#">
+              <img src="./icons/./seventhicon.svg" alt="Help Center icon" />
+              Help Center
+            </a>
+          </li>
+        </div>
       </aside>
 
-      <div>
+      <!-- header section -->
+      <div class="wrapper">
         <header>
           <div class="header-container">
             <label for="search">
@@ -92,72 +104,207 @@
             </div>
           </div>
         </header>
+
         <main>
-          <div class="cake-div">
-            <img
-              class="cake"
-              src="./images/mainfirst image.png"
-              alt="Cake image"
-            />
-            <div class="cake-text">
-              <span class="dessert">Dessert</span>
-              <h1>
-                Chocolate Lava <br />
-                Cake
-              </h1>
-              <img src="./icons/min icon.png" alt="Minute" />
-              <img src="./icons/easy icon.png" alt="easy icon" />
-              <img src="./icons/kcal icon.png" alt="kcal icon" />
-              <br />
+          <div>
+            <div class="cake-div">
+              <img
+                class="cake"
+                src="./images/mainfirst image.png"
+                alt="Cake image"
+              />
+              <div class="cake-text">
+                <span class="dessert">Dessert</span>
+                <h1>
+                  Chocolate Lava <br />
+                  Cake
+                </h1>
+                <img src="./icons/min icon.png" alt="Minute" />
+                <img src="./icons/easy icon.png" alt="easy icon" />
+                <img src="./icons/kcal icon.png" alt="kcal icon" />
+                <br />
 
-              <button class="cake-btn">Add to Order</button>
+                <button class="cake-btn">Add to Order</button>
+              </div>
             </div>
+
+            <div class="items-wrapper">
+              <div class="items">
+                <span>Calories</span>
+                <p>450 kcal</p>
+              </div>
+
+              <div class="items sugar">
+                <span>Sugar</span>
+                <p>28gr</p>
+              </div>
+
+              <div class="items fat">
+                <span>FAT</span>
+                <p>18 gr</p>
+              </div>
+
+              <div class="items carbs">
+                <span>Carbs</span>
+                <p>52g</p>
+              </div>
+            </div>
+
+            <section class="menu">
+              <div class="menu-div">
+                <h2>Menu Selections</h2>
+                <div class="menu-category">
+                  <div class="menu-items">
+                    <p>All</p>
+                  </div>
+
+                  <div class="menu-items">
+                    <p>Cake</p>
+                  </div>
+
+                  <div class="menu-items">
+                    <p>Ice cream</p>
+                  </div>
+
+                  <div class="menu-items">
+                    <p>Drinks</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-wrapper">
+                <div class="card">
+                  <div class="card-image">
+                    <span class="badge">Best Seller</span>
+                    <img
+                      src="./images/donutimg.png"
+                      alt="Artisan Donut image"
+                    />
+                  </div>
+                  <div class="card-text">
+                    <span>CAKE</span>
+                    <p>Artisan Donut</p>
+
+                    <div class="below">
+                      <span>$4.50</span>
+                      <button>+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-image">
+                    <span class="badge Vanilla">New</span>
+                    <img
+                      src="./images/bean dream.png"
+                      alt="Vanilla Bean Dream image"
+                    />
+                  </div>
+                  <div class="card-text">
+                    <span>ICE CREAM </span>
+                    <p>Vanilla Bean Dream</p>
+
+                    <div class="below">
+                      <span>$6.25</span>
+                      <button>+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-image">
+                    <img
+                      src="./images/macshiato.png"
+                      alt="Caramel Macchiato image"
+                    />
+                  </div>
+                  <div class="card-text">
+                    <span>DRINK</span>
+                    <p>Caramel Macchiato</p>
+
+                    <div class="below">
+                      <span>$5.75</span>
+                      <button>+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
 
-          <div class="items-wrapper">
-            <div class="items">
-              <span>Calories</span>
-              <p>450 kcal</p>
-            </div>
+          <aside class="right-side">
+            <div class="popular">
+              <div class="popular-text">
+                <h3>Popular choice</h3>
+                <span>View all</span>
+              </div>
 
-            <div class="items sugar">
-              <span>Sugar</span>
-              <p>28gr</p>
-            </div>
+              <div class="popular-card">
+                <div class="first-card">
+                  <img
+                    src="./images/macaron.png"
+                    alt="Assorted Macarons image"
+                  />
+                  <div class="text">
+                    <h4>Assorted Macarons</h4>
+                    <p>6 pieces selection</p>
+                  </div>
 
-            <div class="items fat">
-              <span>FAT</span>
-              <p>18 gr</p>
-            </div>
-
-            <div class="items carbs">
-              <span>Carbs</span>
-              <p>52g</p>
-            </div>
-          </div>
-
-          <section class="menu">
-            <div class="menu-div">
-              <h2>Menu Selections</h2>
-              <div class="menu-category">
-                <div class="menu-items">
-                  <p>All</p>
+                  <button>+</button>
                 </div>
+                <div class="second-card first-card">
+                  <img src="./images/cookies.jpg" alt="Warm cookies image" />
+                  <div class="text">
+                    <h4>Warm Cookies</h4>
+                    <p>Classic dark chip</p>
+                  </div>
 
-                <div class="menu-items">
-                  <p>Cake</p>
-                </div>
-
-                <div class="menu-items">
-                  <p>Ice cream</p>
-                </div>
-
-                <div class="menu-items">
-                  <p>Drinks</p>
+                  <button>+</button>
                 </div>
               </div>
             </div>
-          </section>
+            <div class="recommended">
+              <h4>Recommended for you</h4>
+              <br />
+              <p>Based on your recent pastry selections</p>
+              <div class="recommended-card">
+                <img
+                  src="./images/recommendedimg.jpg"
+                  alt="Recommended dessert"
+                />
+                <div class="rec-text">
+                  <h4>Wild Strawberry Tart</h4>
+                  <span>$8.50</span>
+                </div>
+                <button>Quick Add</button>
+              </div>
+            </div>
+            <hr />
+            <div class="order">
+              <div class="order-text">
+                <div class="current">
+                  <h4>Current Order</h4>
+                  <div class="order-span">
+                    <span>2 items</span>
+                  </div>
+                </div>
+                <div class="Lava">
+                  <p>Lava cake</p>
+                  <span>$12.00</span>
+                </div>
+                <div class="latte Lava">
+                  <p>Latte</p>
+                  <span>$5.75</span>
+                </div>
+              </div>
+              <div class="total">
+                <div class="total-amount">
+                  <p>Total Amount</p>
+                  <span>$17.75</span>
+                </div>
+                <p>Taxes and service fees included</p>
+              </div>
+            </div>
+          </aside>
         </main>
       </div>
     </div>
